@@ -17,7 +17,7 @@ The objective of this project is the development of an Integrated Information Sy
 - The system will calculate the final score as the average of the theoretical and practical training.
 - Assessors can review frequent errors and other details concerning the progress of the assessment process through charts.
 
-### Non-operational Requirements
+### Non-Operational Requirements
 - System response time shall not exceed 3 seconds, even when serving 20 evaluators simultaneously.
 - The system shall be continuously operational (24/7) and shall not crash more than twice a year.
 - System restart time after any interruption shall not exceed 3 minutes.
