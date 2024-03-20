@@ -1,0 +1,341 @@
+* html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  
+}
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-align: center;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.box {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  width: 800px;
+  padding: 10px;
+  top: 10em;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  background: #31353D;
+
+}
+.box h2 {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  font-size: 20px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #31353D;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 160px;
+  border-color: #2ecc71;
+  color: rgb(0, 0, 0);
+}
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 30px;
+}
+.box input[type="submit"]:hover {
+  background: #2ecc71;
+  font-size: 30px;
+  color: rgb(5, 5, 5);
+}
+
+.box table,th,td,tr {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-left: 0em;
+  padding: 10px;
+  border: 0.09em solid #31353D;
+  top: 100%;
+  left: 400%;
+  width: 800px;
+  background: #ffffff;
+  border-radius: 10px;
+  
+}
+.box h3 {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.box caption {
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  padding: 17px;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box eidikotites {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.box input[type="reset"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #afcc2e;
+  padding: 14px 40px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  transition: 0.1s;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.box input[type="reset"]:hover {
+  background: #afcc2e;
+  font-size: 30px;
+  color: rgb(5, 5, 5);
+}
+
+.box input[type="file"] {
+  border: 0;
+  background: none;
+  font-size: 15px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #31353D;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.box input[type="email"] {
+  border: 0;
+  background: none;
+  font-size: 18px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #31353D;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+/* ############################################################################################ */
+/* Ότι αφορα το μενου της επιλογης ειδικοτητας */
+.eidikotites select {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  width: 250px;
+  text-align: center;
+  border: none;
+  font-size: 18px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  border: 2px solid #31353D;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.eidikotites::before {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.eidikotites:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.eidikotites select option {
+  padding: 30px;
+}
+/* ############################################################################################ */
+
+.footer {
+
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #000000;
+  background: #31353D;
+  box-shadow: 0 50px 30px rgba(0, 0, 0, 0.2);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+h5 {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.header {
+  background-image: url("army.jpg");
+  padding: 50px;
+  text-align: center;
+  border-bottom: 1px solid #000000;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+
+/* Ότι αφορα το μενου της επιλογης βαθμου */
+.rankchoice select {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  width: 250px;
+  text-align: center;
+  border: none;
+  font-size: 18px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  border: 2px solid #31353D;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rankchoice::before {
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.rankchoice:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.rankchoice select option {
+  padding: 30px;
+  text-align: center;
+}
+
+/* Ότι αφορα το μενου της επιλογης μοναδας */
+.battalionselect select {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  width: 250px;
+  text-align: center;
+  border: none;
+  font-size: 18px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  border: 2px solid #31353D;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.battalionselect::before {
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%; 
+  text-align: center;
+  font-size: 18px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.battalionselect:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.battalionselect select option {
+  padding: 30px;
+}

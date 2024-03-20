@@ -1,0 +1,209 @@
+html {
+  height: 100%;
+  margin: auto;
+  padding: 0px;
+  scroll-behavior: auto;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h4 {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  margin-bottom: 1em;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+body {
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  margin: auto;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  box-shadow: 0 50px 30px rgba(0, 0, 0, 0.2);
+  width: 800px;
+  padding: 10px;
+  position: sticky;
+  top: 10em;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-top: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 1px solid #000000;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: 1px solid #000000;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  margin-top: 2em;
+  background: #3498db;
+  box-shadow: 0 50px 30px rgba(0, 0, 0, 0.2);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position:sticky;
+  border: 1px solid #000000;
+}
+
+.header {
+  background: url("../images/army.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 55px;
+  text-align: center;
+  font-size: 35px;
+  margin-top: -1.5em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #000000;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+h5 {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+
+
+
+.entrypage table {
+  box-shadow: -2px 20px 20px rgba(0, 0, 0, 0.356);
+  text-align: center;
+  margin-left: 0em;
+  padding: 10px;
+  font-style: italic;
+  top: 100%;
+  left: 10%;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background: #ffffff;
+  border-radius: 20px;
+  border: transparent;
+}
+.entrypage th,td,tr {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-left: 0em;
+  padding: 10px;
+  border: 0.09em solid #000000;
+  top: 100%;
+  left: 400%;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background: #ffffff;
+  border-radius: 20px;
+  border: transparent;
+}
+
+
+
+
+
+
+.entrypage {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 10px;
+  top: 10em;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+
+.center button[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #000000;
+  padding: 14px 40px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  transition: 0.1s;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.center button[type="submit"]:hover {
+  background: #ffffff;
+  font-size: 30px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(5, 5, 5);
+}

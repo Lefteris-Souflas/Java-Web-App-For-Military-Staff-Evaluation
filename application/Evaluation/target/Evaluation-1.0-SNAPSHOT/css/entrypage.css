@@ -1,0 +1,149 @@
+* html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 48px;
+  font-weight: 500;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h5 {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 18px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.entrypage {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  width: 80%;
+  padding: 10px;
+  top: 10em;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  background: rgb(255, 255, 255);
+}
+
+.entrypage input[type="submit"] {
+  background: none;
+  margin: 20px auto;
+  margin-right: 0.5em;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 40px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 30px;
+  float: right;
+}
+.entrypage input[type="submit"]:hover {
+  background: #3498db;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.entrypage table {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-left: 0em;
+  padding: 10px;
+  border: 0.09em solid #3498db;
+  top: 100%;
+  left: 400%;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #000000;
+}
+.entrypage th,td,tr {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-left: 0em;
+  padding: 10px;
+  border: 0.09em solid #3498db;
+  top: 100%;
+  left: 400%;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background: #ffffff;
+  border-radius: 10px;
+  border: transparent;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+
+  background: #3498db;
+  box-shadow: 0 50px 30px rgba(0, 0, 0, 0.2);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position:sticky;
+  border: 1px solid #000000;
+}
+img {
+  
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  left: 90%;
+  top: 23%;
+  position:absolute;
+  border-style: 1px solid #000000;
+}
+
+.header {
+  background-image: url("army.jpg");
+  padding: 50px;
+  text-align: center;
+  font-size: 35px;
+  position:sticky;
+  border-bottom: 1px solid #000000;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.entrypage table .welcomeentry {
+  width: 90%;
+  text-align: center;
+}
+
+li {
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: justify;
+  padding: 6px;
+}

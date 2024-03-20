@@ -1,0 +1,155 @@
+* html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(255, 255, 255);
+  transition: 0.25s;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 48px;
+  font-weight: 500;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.entrypage {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  width: 80%;
+  padding: 10px;
+  top: 10em;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+button {
+  background: none;
+  margin: 20px auto;
+  margin-right: 0.5em;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 40px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 35px;
+  float: right;
+  background-repeat: no-repeat;
+}
+.entrypage input[type="submit"]:hover {
+  background: #3498db;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.entrypage table {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-left: 0em;
+  padding: 10px;
+  border: 0.09em solid #3498db;
+  top: 100%;
+  left: 400%;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #000000;
+}
+.entrypage th,td,tr {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-left: 0em;
+  padding: 10px;
+  border: 0.09em solid #000000;
+  top: 100%;
+  left: 400%;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background: #ffffff;
+  border-radius: 10px;
+  border: transparent;
+}
+
+
+
+.entrypage table .welcomeentry {
+  width: 100%;
+  text-align: center;
+  border: 0.09em solid #000000;
+  border-radius: 10px;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+    left: 90%;
+    top: 23%;
+    
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 88%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
+    color: rgb(0, 0, 0);
+    
+    font-size: 35px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    transition: 0.25s;
+  }
+  
+  .container .btn:hover {
+    background: #000000;
+font-size: 40px;
+    color: rgb(255, 255, 255);
+    
+  }
