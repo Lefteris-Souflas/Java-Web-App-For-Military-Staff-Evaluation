@@ -33,7 +33,7 @@ The objective of this project is the development of an Integrated Information Sy
 ![image](https://github.com/CodeNinjaTech/Java-Web-App-For-Military-Staff-Evaluation/assets/143879796/2cf1e6f3-4008-4256-b556-2d8dac322e38)
 
 ## Technologies Used
-![image](https://github.com/CodeNinjaTech/Java-Web-App-For-Military-Staff-Evaluation/assets/143879796/0bf6e932-9aa6-4858-abd1-843f96ce1377)
+![Screenshot 2024-03-20 223705](https://github.com/CodeNinjaTech/Java-Web-App-For-Military-Staff-Evaluation/assets/143879796/64c101e9-d7b4-4890-982d-85bd77e5f5c7)
 
 ## Operation of the Theoretical Assessment (Single Page Application)
-![image](https://github.com/CodeNinjaTech/Java-Web-App-For-Military-Staff-Evaluation/assets/143879796/22f0d804-763b-4165-9196-a06ef068265a)
+![Screenshot 2024-03-20 223807](https://github.com/CodeNinjaTech/Java-Web-App-For-Military-Staff-Evaluation/assets/143879796/6f0f0e8e-1770-4026-a047-92e6bdd080af)
