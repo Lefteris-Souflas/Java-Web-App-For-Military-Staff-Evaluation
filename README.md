@@ -1,5 +1,7 @@
 # Project Description
 
+Web App Project served as a Dissertation for the Department of Programmers-Analysts of the School of Computer Programmers of the Hellenic Armed Forces.
+
 ## Objective
 The objective of this project is the development of an Integrated Information System for the Annual Evaluation of the Army Staff, utilizing Information Technology. The aim is to digitize the annual evaluation process, reduce the time of the personnel responsible for its execution, and eliminate the large volume of printouts consumed.
 
